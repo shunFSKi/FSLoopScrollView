@@ -21,6 +21,8 @@
 		A3703D171E6D6694009B8059 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3703D111E6D6694009B8059 /* 4.jpg */; };
 		A3703D181E6D6694009B8059 /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3703D121E6D6694009B8059 /* 5.jpg */; };
 		A3703D191E6D6694009B8059 /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A3703D131E6D6694009B8059 /* 6.jpg */; };
+		A37F9C101E6EB32000FF1C00 /* home_ic_hot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A37F9C0F1E6EB32000FF1C00 /* home_ic_hot@2x.png */; };
+		A37F9C121E6EB33800FF1C00 /* home_ic_new@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A37F9C111E6EB33800FF1C00 /* home_ic_new@2x.png */; };
 		C47E0AE223CD6B300D95A9BF /* libPods-FSLoopScrollViewDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BBE28EF76DBBC3E4CD946F3 /* libPods-FSLoopScrollViewDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +48,8 @@
 		A3703D111E6D6694009B8059 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 		A3703D121E6D6694009B8059 /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
 		A3703D131E6D6694009B8059 /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		A37F9C0F1E6EB32000FF1C00 /* home_ic_hot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_ic_hot@2x.png"; sourceTree = "<group>"; };
+		A37F9C111E6EB33800FF1C00 /* home_ic_new@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_ic_new@2x.png"; sourceTree = "<group>"; };
 		BA85A6BD84EDB18CDD15D1ED /* Pods-FSLoopScrollViewDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSLoopScrollViewDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-FSLoopScrollViewDemo/Pods-FSLoopScrollViewDemo.release.xcconfig"; sourceTree = "<group>"; };
 		CE2BC19A62B4A5FD74AFDB67 /* Pods-FSLoopScrollViewDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSLoopScrollViewDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FSLoopScrollViewDemo/Pods-FSLoopScrollViewDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -91,6 +95,8 @@
 		A3703CE21E6D657B009B8059 /* FSLoopScrollViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A37F9C111E6EB33800FF1C00 /* home_ic_new@2x.png */,
+				A37F9C0F1E6EB32000FF1C00 /* home_ic_hot@2x.png */,
 				A3703D0D1E6D6694009B8059 /* images */,
 				A3703CFA1E6D6586009B8059 /* FSLoopScrollView */,
 				A3703CE61E6D657B009B8059 /* AppDelegate.h */,
@@ -210,10 +216,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3703D191E6D6694009B8059 /* 6.jpg in Resources */,
+				A37F9C101E6EB32000FF1C00 /* home_ic_hot@2x.png in Resources */,
 				A3703CF31E6D657B009B8059 /* LaunchScreen.storyboard in Resources */,
 				A3703D181E6D6694009B8059 /* 5.jpg in Resources */,
 				A3703D171E6D6694009B8059 /* 4.jpg in Resources */,
 				A3703D141E6D6694009B8059 /* 1.jpg in Resources */,
+				A37F9C121E6EB33800FF1C00 /* home_ic_new@2x.png in Resources */,
 				A3703D151E6D6694009B8059 /* 2.jpg in Resources */,
 				A3703D161E6D6694009B8059 /* 3.jpg in Resources */,
 				A3703CF01E6D657B009B8059 /* Assets.xcassets in Resources */,
@@ -441,6 +449,7 @@
 				A3703CF91E6D657B009B8059 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
