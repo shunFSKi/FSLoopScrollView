@@ -250,6 +250,7 @@
 {
     _titlesArr = titlesArr;
     _currentIndex = 0;
+    self.scrollView.scrollEnabled = NO;
     
     if (![_timer isValid]) {
         _timer = [NSTimer scheduledTimerWithTimeInterval:_timeinterval target:self selector:@selector(onTimer:) userInfo:nil repeats:YES];
@@ -259,8 +260,9 @@
         self.scrollView.contentSize = CGSizeMake(0, CGRectGetHeight(self.bounds));
     }else{
         self.scrollView.contentSize = CGSizeMake(0, CGRectGetHeight(self.bounds)*2);
+        [self.timer resumeTimerAfterTimeInterval:_timeinterval];
     }
-    [self.timer resumeTimerAfterTimeInterval:_timeinterval];
+    
     [self refreshCurrentTitleView];
 }
 
